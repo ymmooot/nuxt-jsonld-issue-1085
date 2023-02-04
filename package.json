@@ -1,0 +1,20 @@
+{
+  "name": "codesandbox-nuxt",
+  "version": "1.0.0",
+  "description": "Nuxt starter for CodeSandBox",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 nuxi dev",
+    "build": "nuxi build",
+    "start": "nuxi preview",
+    "generate": "nuxi generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "nuxt-edge": "2.16.0-27720022.54e852f",
+    "nuxt-jsonld": "v1",
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@3.0.0-27747000.69db93e",
+    "nuxi": "3.0.0-rc.8"
+  }
+}
